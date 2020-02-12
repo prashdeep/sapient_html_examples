@@ -45,8 +45,8 @@
     </ol>
 
     <div>
-        <img src="./dhoni.jpg" style="border: 4px solid red;"/> 
-        <img src="./dhoni-2.jpg" style="border: 4px solid red;"/>
+        <img src="img/dhoni.jpg" style="border: 4px solid red;"/> 
+        <img src="./img/dhoni-2.jpg" style="border: 4px solid red;"/>
     </div>
     <div>
         <span>Text1</span>
@@ -69,6 +69,35 @@
             <li>Three</li>
             <li>Four</li>
         </ul>
+    </div>
+
+    <div>
+        <form action="/handleSubmit" method="POST"> 
+            Firstname: <input type="text" required maxlength="34" name="firstname" id="firstname"><br/>
+            LastName:  <input type="text" required name="lastname" id="lastname"><br/>
+            password: <input type="password" name="password" id="password"><br/>
+
+            Email: <input type="email" email name="email" id="email"><br/>
+            <select name="city" id="city">
+                <option value="delhi">Delhi</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="pune">Pune</option>
+            </select>
+
+            <br/>
+            Gender
+            <input type="radio" name="gender" id="male">
+            <input type="radio" name="gender" id="female">
+
+            Hobbies
+            Drawing: <input type="checkbox" name="hobbies" id="drawing">
+            reading: <input type="checkbox" name="hobbies" id="reading">
+            Playing FootBall: <input type="checkbox" name="hobbies" id="football">
+            Playing Cricket:<input type="checkbox" name="hobbies" id="cricket">
+             
+            <input type="submit" value="submit">
+        </form>
     </div>
 </body>
 </html>
