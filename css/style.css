@@ -1,0 +1,26 @@
+p {
+    border:10px solid red; 
+    padding: 10px; 
+    margin-bottom: 
+    20px; 
+    color:aqua;
+}
+ul > li {
+    list-style: none;
+    display: inline;
+    border: 1px solid red;
+    padding:10px;
+    background-color: goldenrod;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.circle {
+    border:1px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin:20px;
+}
